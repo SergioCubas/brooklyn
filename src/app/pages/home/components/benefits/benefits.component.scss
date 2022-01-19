@@ -1,0 +1,33 @@
+@import '../../../../../sass/variable';
+
+.benefits{
+    padding: 50px 5%;
+    &-container{
+        background: $color-lightblue;
+        display: flex;
+
+        &__description{
+            width: 20%;
+            padding: 20px;
+            box-sizing: border-box;
+            h3{
+                font-size: 26px;
+                font-weight: bold;
+            }
+            p{
+                font-size: 14px;
+            }
+            button{
+                margin-top: 25px;
+                margin-bottom: 40px;
+            }
+        }
+        &__image{
+            width: 80%;
+            background-image: url(../../../../../assets/img/card/background.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}

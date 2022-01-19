@@ -1,1 +1,14 @@
 @import './variable';
+
+.btn-anybg{
+    background:none;
+    padding: 10px 30px;
+    &__white{
+        color: $color-white;
+        border: 1px solid $color-white;
+    }
+    &__black{
+        color: $color-black;
+        border: 1px solid $color-black;
+    }
+}
