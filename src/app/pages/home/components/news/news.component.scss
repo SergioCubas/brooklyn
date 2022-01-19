@@ -11,6 +11,9 @@
             color: white;
             padding: 20px;
             box-sizing: border-box;
+            @media( max-width: 600px){
+                width: 50%;
+            }
             p{
                 font-size: 14px;
             }
@@ -26,6 +29,9 @@
             height: 100%;
             width: 70%;
             background-size: cover;
+            @media( max-width: 600px){
+                width: 50%;
+            }
         }
     }
 }

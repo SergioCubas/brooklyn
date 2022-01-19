@@ -45,6 +45,12 @@ span.mat-button-wrapper {
     display: flex !important;
     align-items: center;
     background: transparent !important;
+    @media( max-width: 600px){
+        left: -40px;
+        img{
+            width: 28px;
+        }
+    }
 }
 
 .owl-next {
@@ -56,5 +62,11 @@ span.mat-button-wrapper {
     display: flex !important;
     align-items: center;
     background: transparent !important;
+    @media( max-width: 600px){
+        right: -40px;
+        img{
+            width: 28px;
+        }
+    }
 }
 

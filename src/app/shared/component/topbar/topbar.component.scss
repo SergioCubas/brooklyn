@@ -8,10 +8,18 @@
     box-sizing: border-box;
     &-category{
         border-right: 1px solid $color-graydark;
+        @media( max-width: 600px){
+            width: 100%;
+            text-align: center;
+            border: none;
+        }
     }   
     &-navbar{
         display: flex;
         align-items: center;
+        @media( max-width: 600px){
+            display: none;
+        }
         ul{
             list-style: none;
             display: flex;
