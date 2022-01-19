@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="MDI_sale" data-name="MDI / sale" transform="translate(-0.336)">
+    <g id="Boundary" transform="translate(0.336)" fill="#f6423e" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="22" height="22" stroke="none"/>
+      <rect x="0.5" y="0.5" width="21" height="21" fill="none"/>
+    </g>
+    <path id="Path_sale" data-name="Path / sale" d="M17.033,2.659l.553,3.519,3.184,1.632L19.165,11l1.615,3.19-3.212,1.632-.553,3.519-3.529-.556L10.973,21.3,8.451,18.748l-3.5.583-.562-3.546L1.22,14.163l1.615-3.19L1.229,7.809l3.184-1.65.553-3.491,3.511.583L11,.69l2.513,2.525,3.52-.556m-8.3,3.783a1.367,1.367,0,1,0,1.361,1.367A1.364,1.364,0,0,0,8.732,6.442m4.536,6.381a1.367,1.367,0,1,0,1.361,1.367,1.364,1.364,0,0,0-1.361-1.367M7.743,15.557l7.793-7.83L14.257,6.442l-7.793,7.83Z" transform="translate(0.116 0.31)" fill="#f6423e"/>
+  </g>
+</svg>
