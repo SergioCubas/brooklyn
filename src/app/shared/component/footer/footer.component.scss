@@ -26,6 +26,12 @@
         padding-bottom: 80px;
         display: flex;
         justify-content: space-between;
+        @media( max-width: 600px){
+            flex-direction: column;
+            > div{
+                padding-bottom: 25px;
+            }
+        }
         ul{
             list-style: none;
         }
@@ -33,6 +39,9 @@
             color: $color-graydark;
             padding: 5px 0;
             font-size: 14px;
+            &:nth-child(1){
+                font-weight: bold;
+            }
             a{
                 text-decoration: none;
                 color: $color-graydark;
@@ -48,12 +57,18 @@
                 &:nth-child(2){
                     display: flex;
                     flex-direction: column;
+                    @media( max-width: 600px){
+                        flex-direction: row;
+                    }
                     a{
                         width: fit-content;
                     }
                     img{
                         width: 50%;
                         margin-top: 15px;
+                        @media( max-width: 600px){
+                            width: 100%;
+                        }
                     }
                 }
             }

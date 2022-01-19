@@ -1,0 +1,13 @@
+@import '../../../../../sass/variable';
+
+.carousel-container{
+    padding: 50px 5%;
+    &__content{
+        padding: 10%;
+        text-align: center;
+        p{
+            color: $color-graydark;
+            padding-top: 15px;
+        }
+    }
+}
