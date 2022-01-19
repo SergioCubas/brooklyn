@@ -1,1 +1,40 @@
 @import './variable';
+
+/* Limpiar style in select to material */
+span.mat-button-wrapper {
+    display: flex;
+}
+
+/* To ovwl Carousel */
+
+.banner-container,
+.owl-carousel.owl-theme.owl-loaded.owl-responsive,
+.owl-stage-outer.ng-star-inserted,
+.ng-tns-c308-1,
+.owl-stage.ng-tns-c308-1
+ {
+    height: 100%;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 0;
+    left: -80px;
+    bottom: 0;
+    margin: auto !important;
+    display: flex !important;
+    align-items: center;
+    background: transparent !important;
+}
+
+.owl-next {
+    position: absolute;
+    top: 0;
+    right: -80px;
+    bottom: 0;
+    margin: auto !important;
+    display: flex !important;
+    align-items: center;
+    background: transparent !important;
+}
+

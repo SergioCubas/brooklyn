@@ -1,1 +1,83 @@
 @import '../../../../sass/variable';
+
+.header{
+    background-color: $color-primary;
+    padding: 10px 5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-logo{
+        width: 15%;
+        img{
+            width: 100%;
+        }
+    }
+    &-search{
+        width: 43%;
+        position: relative;
+        input{
+            width: 100%;
+            border: none;
+            padding: 13px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            outline: none;
+            font-size: 14px;
+        }
+        img{
+            position: absolute;
+            right: 10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    }
+    &-navigation{
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        >  div{
+            display: flex;
+            align-items: center;
+            .icon{
+                padding-right: 10px;
+            }
+            .dropdown{
+                p{
+                    color: $color-white;
+                    font-weight: bold;
+                    font-size: 14px;
+                    margin: 0;
+                }
+                span{
+                    font-size: 12px;
+                    color: $color-white;
+                }
+            }
+        }
+    }
+    &-actions{
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        > div{
+            display: flex;
+            align-items: center;
+        }
+        p{
+            width: 25px;
+            height: 25px;
+            background: $color-black;
+            border-radius: 50px;
+            font-size: 14px;
+            margin: 0;
+            color: $color-white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

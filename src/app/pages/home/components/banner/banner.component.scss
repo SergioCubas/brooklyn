@@ -1,0 +1,57 @@
+@import '../../../../../sass/variable';
+
+.banner{
+    background-image: url(../../../../../assets/img/banner/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+    &-container{
+        padding: 0 7%;
+
+        &__content{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            img{
+                width: 70%;
+                margin: 0 auto;
+            }
+            p{
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                svg{
+                    padding-left: 10px;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: $color-white;
+                font-size: 20px;
+            }
+            &.text{
+                h2{
+                    font-size: 32px;
+                    font-weight: bold;
+                    color: $color-white;
+                }
+                p{
+                    text-align: left;
+                    color: $color-white;
+                }
+                button{
+                    background:$color-white;
+                    color: $color-primary;
+                    border: none;
+                    padding: 10px 15px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    width: fit-content;
+                }
+            }
+        }
+    }
+}
