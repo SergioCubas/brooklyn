@@ -1,0 +1,58 @@
+@import '../../../../../sass/variable';
+
+.stores{
+    padding: 50px 5%;
+    &-content{
+        &__card{
+            &:hover a{
+                color: $color-primary !important;
+            }
+        }
+    }
+    .header{
+        position: relative;
+        height: 120px;
+        background-image: url(../../../../../assets/img/store/bg.png);
+        background-size: cover;
+        background-position: center;
+        img{
+            width: 30%;
+            margin: auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -25px;
+        }
+    }
+    .body{
+        background: $color-gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 5% 10px 5%;
+        box-sizing: border-box;
+        img{
+            width: 45%;
+        }
+    }
+    .action{
+        text-align: center;
+        padding: 20px;
+        border-bottom: 7px solid $color-primary;
+        background: $color-gray;
+        a{
+            text-decoration: none;
+            color: $color-black;
+            transition: .5s ease all;
+        }
+    }
+    &-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: $color-blue;
+            text-decoration: none;
+        }
+    }
+}

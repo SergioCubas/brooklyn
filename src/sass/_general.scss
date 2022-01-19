@@ -1,5 +1,25 @@
 @import './variable';
 
+/* Titles */
+.stores-titles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    a{
+        color: $color-blue;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+h1.text-primary{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
 /* Limpiar style in select to material */
 span.mat-button-wrapper {
     display: flex;

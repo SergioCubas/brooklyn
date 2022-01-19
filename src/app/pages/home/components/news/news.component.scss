@@ -1,0 +1,31 @@
+@import '../../../../../sass/variable';
+.news{
+    padding: 50px 5%;
+
+    &-new{
+        height: 250px;
+        display: flex;
+        align-items: center;
+        &__description{
+            width: 30%;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            p{
+                font-size: 14px;
+            }
+            h3{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            button{
+                margin-top: 30px;
+            }
+        }
+        &__image{
+            height: 100%;
+            width: 70%;
+            background-size: cover;
+        }
+    }
+}
